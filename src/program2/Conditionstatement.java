@@ -3,15 +3,38 @@ package program2;
 import java.util.Scanner;
 
 public class Conditionstatement {
+	
+	Scanner in=new Scanner(System.in);
+			
+ 				int input=in.nextInt();
+ 			void display()	{
+			if(input>=0)
+			{
+				System.out.println("Postive number");
+			}
+			else if(input<=0)//else if((input<=0)|(input>=0))
+			{
+				System.out.println("Negative number");
+			}
+			else {
+				System.out.println("Zero number");
+				
+				
+			}
+ 			}
 	public static void main(String[]args) {
-		Scanner in=new Scanner(System.in);
+		
 		System.out.println("Print the number");
-				int input=in.nextInt();
-				if(input>0) 
+		
+		/*Scanner in=new Scanner(System.in);
+		System.out.println("Print the number");
+				int input;
+     				input=in.nextInt();
+				if(input>=0)
 				{
 					System.out.println("Postive number");
 				}
-				else if(input<0)
+				else if(input<=0)//else if((input<=0)|(input>=0))
 				{
 					System.out.println("Negative number");
 				}
@@ -19,8 +42,10 @@ public class Conditionstatement {
 					System.out.println("Zero number");
 					
 					
-				}
+				}*/
+		Conditionstatement n = new Conditionstatement();
+		n.display();
 				
-				
-	}
+	
+}
 }
