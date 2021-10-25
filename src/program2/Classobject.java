@@ -1,4 +1,4 @@
-package program1;
+package program2;
 
 public class Classobject {
 
