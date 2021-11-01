@@ -1,11 +1,11 @@
 
 public class Mainclass {
 	private String name;                  
-	void setName(String name) {
+	void setName(String name) { // we declare the modifier for the setNmae function as public [eg:public void setName]
 		this.name=name;
 		
 	}
-	public String getName() {
+	public String getName() { 
 		return name;
 	}
 	

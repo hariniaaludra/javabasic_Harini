@@ -12,7 +12,7 @@ interface Month{
 	}
  }
  
-class  May extends Jan{
+class  May extends Jan{ // declare this in modifier [eg:public class May extends Jan]
 	public void Jan() {
       System.out.println("This is March Month");
 	}
