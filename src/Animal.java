@@ -1,4 +1,4 @@
-class dog extends Animal{
+class dog extends Animal{ // this 
 		void braking() {
 			System.out.println("braking");
 		}
