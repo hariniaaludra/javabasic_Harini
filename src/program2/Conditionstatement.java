@@ -12,8 +12,7 @@ public class Conditionstatement {
 			{
 				System.out.println("Postive number");
 			}
-			else if(input<=0)//else if((input<=0)|(input>=0))
-			{
+			else if(input<=0)		{
 				System.out.println("Negative number");
 			}
 			else {
@@ -26,26 +25,5 @@ public class Conditionstatement {
 		
 		System.out.println("Print the number");
 		
-		/*Scanner in=new Scanner(System.in);
-		System.out.println("Print the number");
-				int input;
-     				input=in.nextInt();
-				if(input>=0)
-				{
-					System.out.println("Postive number");
-				}
-				else if(input<=0)//else if((input<=0)|(input>=0))
-				{
-					System.out.println("Negative number");
-				}
-				else {
-					System.out.println("Zero number");
-					
-					
-				}*/
-		Conditionstatement n = new Conditionstatement();
-		n.display();
-				
-	
-}
+	}
 }
