@@ -1,4 +1,4 @@
-package com.array;
+package com.array;   //package name changed
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Array1 {
 	public static void main(String[]args) {
 		Scanner scan=new Scanner(System.in);
 		int n=scan.nextInt();
-		int a[]=new int[n];
+		int [] a=new int[n];  //array declaration
 		for(int i=0;i<n;i++)
 		{
 			a[i]=scan.nextInt();
