@@ -23,14 +23,26 @@ public void Apirl() {
 	
 	public void March() {
 	System.out.println("This is March Month");
-			} 
+			}
+
+	@Override
+	public void jan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void march() {
+		// TODO Auto-generated method stub
+		
+	} 
 	}
 public class Abstract {
 	public static void main(String[]args) {
 		Month obj=new May();
-		obj.Jan();
-		obj.Feb();
-		obj.March();
+		obj.jan();
+		obj.feb();
+		obj.march();
 	}
 }
 
