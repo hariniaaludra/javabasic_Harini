@@ -11,11 +11,13 @@ public class Arraysfunction {
 		float[] movieRatings = { 7.7F, 7.6F, 6.9F, 8.0F, 5.9F, 5.4F
 
 		};
+	
+		
 		System.out.println("Actor's name:" + actorName);
 		System.out.println("Born:" + yearOfBorn + "(" + age + "years old)");
 		System.out.println("Movies:");
-		for (int i = 0; i < movieTitles.length; i++) {
-			System.out.println(movieTitles[i] + "-" + getRating(movieRatings[i]));
+		for (int i = 0,j=movieRatings.length-1; i < movieTitles.length; i++,j--) {
+			System.out.println(movieTitles[i] + "-" + getRating(movieRatings[j]));
 		}
 	}
 
