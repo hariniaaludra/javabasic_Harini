@@ -44,9 +44,9 @@ public  abstract class Car {
 	        Random randomNumberGenerator = new Random();
 	        this.registrationNumber = randomNumberGenerator.nextLong();
 	    }
-	    public abstract void startTheEngine();{
-	    	System.out.println("A " + color + " " + carName + " is created.");
-	    }
+	    public abstract void startTheEngine();
+	    
+	    
 
 	    public  void getDescription(){
 	        System.out.println("A " + color + " " + carName + " is created.");
